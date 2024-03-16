@@ -5,15 +5,15 @@ st.title("Mi Primera App!!")
 
 st.header("Hello!")
 st.write("Bienvenidas<3")
-image = Image.open('imagen.png')
+image = Image.open('cheers.jpg')
 
-st.image(image, caption ='Ralsei')
+st.image(image, caption ='Brindemos')
 
 
-texto = st.text_input('hola', 'chao')
-st.write('El texto escrito es', texto)
+texto = st.text_input('Escribe algo bonito', 'aquí')
+st.write('Wow!! que frase más bonita es...', texto)
 
-st.subheader("ahora usemos dos columnas")
+st.subheader("Aquí nos dedicaremos al arte")
 
 col1, col2 = st.columns(2)
 
