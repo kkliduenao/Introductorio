@@ -26,7 +26,7 @@ with col1:
 
 with col2:
   st.subheader("Acá amamos el baile")
-  modo = st.radio("¿A ti que te gusta bailar?", ('Charmander', 'Squirtle', 'Bulbasaur'))
+  modo = st.radio("¿A ti que te gusta bailar?", ('Salsa', 'Urbano', 'Contemporaneo'))
   if modo == 'Salsa':
     st.write("A nosotras también!!")
   if modo == 'Urbano':
