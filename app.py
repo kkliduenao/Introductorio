@@ -18,19 +18,19 @@ st.subheader("Aquí nos dedicaremos al arte")
 col1, col2 = st.columns(2)
 
 with col1:
-  st.subheader("Esta es la primera columna")
-  st.write("oh, me falta el aire")
-  resp = st.checkbox("y el corazón tucun tucun tucun")
+  st.subheader("Aquí amamos el cine")
+  st.write("¿A ti te gusta?")
+  resp = st.checkbox("Lo amo")
   if resp:
-    st.write('Correcto!')
+    st.write('Nosotras más <3')
 
 with col2:
-  st.subheader("Esta es la segunda columna")
-  modo = st.radio("Cual es tu starter favorito?", ('Charmander', 'Squirtle', 'Bulbasaur'))
-  if modo == 'Charmander':
-    st.write("La opción correcta")
-  if modo == 'Squirtle':
-    st.write('vamo a calmarno')
-  if modo == 'Bulbasaur':
-    st.write('El desechable')
+  st.subheader("Acá amamos el baile")
+  modo = st.radio("¿A ti que te gusta bailar?", ('Charmander', 'Squirtle', 'Bulbasaur'))
+  if modo == 'Salsa':
+    st.write("A nosotras también!!")
+  if modo == 'Urbano':
+    st.write('Brutal, que estilo')
+  if modo == 'Contemporaneo':
+    st.write('Eres genial')
   
