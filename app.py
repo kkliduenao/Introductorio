@@ -3,8 +3,8 @@ from PIL import Image
 
 st.title("Mi Primera App!!")
 
-st.header("jijijija")
-st.write("no me copies anto")
+st.header("Hello!")
+st.write("Bienvenidas<3")
 image = Image.open('imagen.png')
 
 st.image(image, caption ='Ralsei')
